@@ -1,0 +1,3 @@
+[submodule "Server-GRAPHQL"]
+	path = Server-GRAPHQL
+	url = https://github.com/Yeremi528/BackEnd-Auth
