@@ -26,19 +26,18 @@ const Layout = ({children}) => {
                       
                  </div>
             ): (
-                <div className='bg-gray-200 min-h-screen'>
-               <div className='flex min-h-screen'>
+                
                     
-                    <main className='sm:w-full xl:w-full sm:min-h-screen '>
-                         <Header/>
+                   <div className=''>
+                        <Header/>
                          {children}
-                         <Footer/>
-                    </main>
+                         <Footer/> 
+                   </div>
+                        
+                 
                     
                    
-               </div>
-                
-           </div>  
+              
             )}
           
                
